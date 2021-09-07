@@ -15,7 +15,7 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
-        // 顶部导航栏
+        // 顶部导航栏( 失效 ? )
         nav: [
             {
                 text: 'Languages',
