@@ -2,8 +2,8 @@
 home: true
 title: 首页
 heroImage: /images/logo.png
-heroText: CS Course Learning Note
-tagline: so important for our personal development
+heroText: CS 基础课程学习笔记
+tagline: Stay Hungry Stay Foolish
 actions:
   - text: 立刻学习
     link: /zh/guide/getting-started.html
