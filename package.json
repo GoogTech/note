@@ -1,7 +1,7 @@
 {
   "name": "googtech-note",
   "version": "1.0.0",
-  "description": "GoogTech — CS Learning Note",
+  "description": "GoogTech CS Learning Note",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
