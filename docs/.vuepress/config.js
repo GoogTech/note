@@ -3,6 +3,7 @@ module.exports = {
     title: ' ',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
+    
     // 搜索
     plugins: [
         [
