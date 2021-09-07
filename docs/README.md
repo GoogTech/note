@@ -1,7 +1,32 @@
-# hello vuepress
-## hey guys
+---
+home: true
+title: 首页
+heroImage: /images/logo.png
+heroText: CS Course Learning Note
+tagline: so important for our personal development
+actions:
+  - text: 立刻学习
+    link: /zh/guide/getting-started.html
+    type: primary
+  - text: 项目简介
+    link: /zh/guide/
+    type: secondary
 
-如果你想要把当前页面的目录添加到 Markdown 内容中，你可以使用`[[toc]]`语法
-[[toc]]
 
-![VuePress Logo](images/logo.png)
+features:
+  - title: 📖 操作系统
+    details:
+  - title: 📖 数据结构
+    details: 
+  - title: 📖 计算机网络
+    details: 
+  - title: 📖 编译原理
+    details: 
+  - title: 📖 软件工程
+    details: 
+  - title: 📖 数据库技术
+    details: 
+  - title: 📖 计算机组成原理
+    details: 
+footer: Copyright © 2021 GoogTech
+---
