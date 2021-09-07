@@ -6,6 +6,6 @@ module.exports = {
 
     themeConfig: {
         // logo: 'https://vuejs.org/images/logo.png',
-        logo: '/images/logo.png'
+        logo: 'images/logo.png'
     },
 }
