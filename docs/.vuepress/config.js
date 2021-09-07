@@ -3,12 +3,28 @@ module.exports = {
     title: ' ',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
+    // 搜索
+    plugins: [
+        [
+            '@vuepress/plugin-search',
+            {
+                locales: {
+                    '/': {
+                        placeholder: 'Search',
+                    },
+                    '/zh/': {
+                        placeholder: '搜索',
+                    },
+                },
+            },
+        ],
+    ],
 
     themeConfig: {
         logo: 'images/logo.png',
         // 搜索框
-        search: true,
-        searchMaxSuggestions: 10,
+        // search: true,
+        // searchMaxSuggestions: 10,
         // Github
         repo: 'googtech/note',
         repoLabel: 'Github',
