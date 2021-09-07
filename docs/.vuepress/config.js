@@ -22,10 +22,8 @@ module.exports = {
     ],
 
     themeConfig: {
+        // logo
         logo: 'images/logo.png',
-        // 搜索框
-        // search: true,
-        // searchMaxSuggestions: 10,
         // Github
         repo: 'googtech/note',
         repoLabel: 'Github',
@@ -40,7 +38,7 @@ module.exports = {
                 children: [
                     {
                         text: '操作系统',
-                        link: '/operating-system',
+                        link: '/operating-system/README.md',
                     },
                     {
                         text: '数据结构',
