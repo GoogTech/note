@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: '',
+    title: ' ',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
 
@@ -16,7 +16,6 @@ module.exports = {
         docsBranch: 'master',
         editLinks: true,
         // 顶部导航栏
-        navbar: true,
         nav: [
             {
                 text: 'Languages',
