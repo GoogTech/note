@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: 'GoogTech',
+    title: '',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
 
@@ -16,15 +16,16 @@ module.exports = {
         docsBranch: 'master',
         editLinks: true,
         // 顶部导航栏
+        navbar: true,
         nav: [
             {
-              text: 'Languages',
-              ariaLabel: 'Language Menu',
-              items: [
-                { text: 'Chinese', link: '/language/chinese/' },
-                { text: 'Japanese', link: '/language/japanese/' }
-              ]
+                text: 'Languages',
+                ariaLabel: 'Language Menu',
+                items: [
+                    { text: 'Chinese', link: '/language/chinese/' },
+                    { text: 'Japanese', link: '/language/japanese/' }
+                ]
             }
-          ]
+        ]
     },
 }
