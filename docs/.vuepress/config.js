@@ -15,16 +15,30 @@ module.exports = {
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
-        // 顶部导航栏( 失效 ? )
-        nav: [
+        // 顶部导航栏
+        navbar: [
+            // 嵌套 Group - 最大深度为 2
             {
-                text: 'Languages',
-                ariaLabel: 'Language Menu',
-                items: [
-                    { text: 'Chinese', link: '/language/chinese/' },
-                    { text: 'Japanese', link: '/language/japanese/' }
-                ]
-            }
-        ]
+                text: '408课程',
+                children: [
+                    {
+                        text: '操作系统',
+                        link: '/operating-system',
+                    },
+                    {
+                        text: '数据结构',
+                        link: '/data-structure',
+                    },
+                    {
+                        text: '计算机网络',
+                        link: '/computer-network',
+                    },
+                    {
+                        text: '计算机组成原理',
+                        link: '/computer-compose-principle',
+                    }
+                ],
+            },
+        ],
     },
 }
