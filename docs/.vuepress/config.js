@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: ' ',
+    title: '',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
     
