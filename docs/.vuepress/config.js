@@ -3,7 +3,6 @@ module.exports = {
     title: '',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
-    
     // 搜索
     plugins: [
         [
@@ -42,11 +41,11 @@ module.exports = {
                     },
                     {
                         text: '数据结构',
-                        link: '/data-structure',
+                        link: '/data-structure/README.md',
                     },
                     {
                         text: '计算机网络',
-                        link: '/computer-network',
+                        link: '/computer-network/README.md',
                     },
                     {
                         text: '计算机组成原理',
@@ -55,5 +54,38 @@ module.exports = {
                 ],
             },
         ],
+        // 侧边栏
+        sidebar: {
+            '/operating-system/': [
+                {
+                    text: '介绍',
+                    children: [
+                        '/operating-system/README.md',
+                        '/operating-system/chapter01.md',
+                        '/operating-system/chapter02.md'
+                    ],
+                },
+            ],
+            '/data-structure/': [
+                {
+                    text: '介绍',
+                    children: [
+                        '/data-structure/README.md',
+                        '/data-structure/chapter01.md',
+                        '/data-structure/chapter02.md'
+                    ],
+                },
+            ],
+            '/computer-network/': [
+                {
+                    text: '介绍',
+                    children: [
+                        '/computer-network/README.md',
+                        '/computer-network/chapter01.md',
+                        '/computer-network/chapter02.md'
+                    ],
+                },
+            ],
+        },
     },
 }
