@@ -40,6 +40,7 @@ jobs:
         run: yarn --frozen-lockfile
 
       # 安装v2.0所需的 search 依赖
+      # @see https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html#%E5%AE%89%E8%A3%85
       - name: Install search
         run: npm i -D @vuepress/plugin-search@next
 
