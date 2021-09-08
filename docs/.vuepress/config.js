@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: '',
+    title: 'GoogTech',
     base: '/note/',
     description: 'GoogTech — CS Learning Note',
     // 搜索
@@ -22,7 +22,7 @@ module.exports = {
 
     themeConfig: {
         // logo
-        logo: 'images/logo.png',
+        logo: 'https://leetcode.goog.tech/leetcode-googtech-logo.PNG',
         // Github
         repo: 'googtech/note',
         repoLabel: 'Github',
