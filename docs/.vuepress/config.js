@@ -22,7 +22,7 @@ module.exports = {
 
     themeConfig: {
         // logo
-        logo: 'https://leetcode.goog.tech/leetcode-googtech-logo.PNG',
+        logo: '',
         // Github
         repo: 'googtech/note',
         repoLabel: 'Github',
