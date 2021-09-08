@@ -12,7 +12,6 @@ actions:
     link: /zh/guide/
     type: secondary
 
-
 features:
   - title: 📖 操作系统
     details:
