@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     title: 'GoogTech',
-    // base: '/note/',
+    base: '/note/',
     description: 'GoogTech — CS Course Learning Note',
     // SEO
     head: [
@@ -15,7 +15,7 @@ module.exports = {
         ['meta', { name: 'author', content: 'GoogTech' }],
         ['meta', { name: 'keywords', content: 'GoogTech, 408, CS Course Learning Note, https://goog.tech/note' }],
     ],
-    // 搜索
+    // 搜索, 在 base 为根目录 "/" 时可正常使用
     plugins: [
         [
             '@vuepress/plugin-search',
