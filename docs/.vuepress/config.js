@@ -15,13 +15,13 @@ module.exports = {
         ['meta', { name: 'author', content: 'GoogTech' }],
         ['meta', { name: 'keywords', content: 'GoogTech, 408, CS Course Learning Note, https://goog.tech/note' }],
     ],
-    // 搜索, 在 base 为根目录 "/" 时可正常使用
+    // 搜索
     plugins: [
         [
             '@vuepress/plugin-search',
             {
                 locales: {
-                    '/': {
+                    '/note/': {
                         placeholder: 'Search',
                     },
                     '/zh/': {
