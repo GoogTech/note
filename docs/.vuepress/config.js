@@ -15,7 +15,7 @@ module.exports = {
         ['meta', { name: 'author', content: 'GoogTech' }],
         ['meta', { name: 'keywords', content: 'GoogTech, 408, CS Course Learning Note, https://goog.tech/note' }],
     ],
-    // 搜索
+    // 搜索(本地运行可正常显示, 但在Github Page上则无法正常显示)
     plugins: [
         [
             '@vuepress/plugin-search',
