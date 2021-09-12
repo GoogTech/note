@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /icon/apple-touch-icon.png
+heroImage: note/icon/apple-touch-icon.png
 heroText: CS 基础课程学习笔记
 tagline: Stay Hungry Stay Foolish
 
