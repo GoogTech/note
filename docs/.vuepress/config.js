@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     title: 'GoogTech',
-    base: '/note/',
+    // base: '/note/',
     description: 'GoogTech — CS Course Learning Note',
     // SEO
     head: [
@@ -21,7 +21,7 @@ module.exports = {
             '@vuepress/plugin-search',
             {
                 locales: {
-                    '/note/': {
+                    '/': {
                         placeholder: 'Search',
                     },
                     '/zh/': {
