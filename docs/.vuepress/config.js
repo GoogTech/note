@@ -21,7 +21,7 @@ module.exports = {
             '@vuepress/plugin-search',
             {
                 locales: {
-                    '/note/': {
+                    '/': {
                         placeholder: 'Search',
                     },
                     '/zh/': {
@@ -34,7 +34,7 @@ module.exports = {
 
     themeConfig: {
         // logo
-        logo: '/icon/apple-touch-icon.png',
+        logo: 'note/icon/apple-touch-icon.png',
         // Github
         repo: 'googtech/note',
         repoLabel: 'Github',
