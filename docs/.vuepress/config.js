@@ -21,7 +21,7 @@ module.exports = {
             '@vuepress/plugin-search',
             {
                 locales: {
-                    '/': {
+                    '/note/': {
                         placeholder: 'Search',
                     },
                     '/zh/': {
