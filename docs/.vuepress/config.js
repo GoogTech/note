@@ -85,7 +85,14 @@ module.exports = {
                     children: [
                         '/data-structure/README.md',
                         '/data-structure/chapter01.md',
-                        '/data-structure/chapter02.md'
+                        '/data-structure/chapter02.md',
+                        '/data-structure/chapter03.md',
+                        '/data-structure/chapter04.md',
+                        '/data-structure/chapter05.md',
+                        '/data-structure/chapter06.md',
+                        '/data-structure/chapter07.md',
+                        '/data-structure/chapter08.md',
+                        '/data-structure/chapter09.md',
                     ],
                 },
             ],
