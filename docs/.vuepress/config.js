@@ -105,7 +105,11 @@ module.exports = {
                     children: [
                         '/computer-network/README.md',
                         '/computer-network/chapter01.md',
-                        '/computer-network/chapter02.md'
+                        '/computer-network/chapter02.md',
+                        '/computer-network/chapter03.md',
+                        '/computer-network/chapter04.md',
+                        '/computer-network/chapter05.md',
+                        '/computer-network/chapter06.md',
                     ],
                 },
             ],
