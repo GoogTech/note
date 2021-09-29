@@ -7,7 +7,7 @@ tagline: 这些基础的 CS 课程对我们将来的个人职业发展起着至�
 
 actions:
   - text: 立刻学习
-    link: /data-structure/README.md
+    link: /computer-network/README.md
     type: primary
   - text: 项目简介
     link: /guide/intro.md
@@ -22,7 +22,10 @@ features:
     details: 2021年9月27号发布了《计算机网络》的第一个版本的脑图
   - title: 🔌 计算机组成原理
     details: 相信不久就会发布《计算机组成原理》的第一个版本的脑图啦
-
+  - title: 🔎 编译原理
+    details: 待定哈. . .慢慢来会很快哟
+  - title: 👻 网络安全
+    details: 待定哈. . .最喜欢的专业领域
 footer: Copyright © 2021 GoogTech all right reserved，powered by VuePress v2.0
 ---
 
