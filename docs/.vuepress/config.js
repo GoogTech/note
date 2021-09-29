@@ -75,7 +75,10 @@ module.exports = {
                     children: [
                         '/operating-system/README.md',
                         '/operating-system/chapter01.md',
-                        '/operating-system/chapter02.md'
+                        '/operating-system/chapter02.md',
+                        '/operating-system/chapter03.md',
+                        '/operating-system/chapter04.md',
+                        '/operating-system/chapter05.md',
                     ],
                 },
             ],
